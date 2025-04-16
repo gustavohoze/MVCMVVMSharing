@@ -4,7 +4,7 @@ import SwiftUI
 class HeroCompareViewModel: ObservableObject {
     @Published var selectedHero1: Hero
     @Published var selectedHero2: Hero
-    @Published var battleResult: S?
+    @Published var battleResult: String?
     @Published var comparisonData: [ComparisonRowData] = []
 
     // Initialize the view model with default heroes
